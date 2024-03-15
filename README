@@ -7,3 +7,32 @@
 ## custom-react-002
 
 ## States counter-003
+
+## Additional explanations
+
+* React just mimics how the javascript DOM works.
+* React Fiber is an ongoing reimplementation of React's core algorithm. It is the culmination of over two years of research by the React team. Check our React Fiber on github.
+
+### What is reconciliation? 
+
+* reconciliation
+The algorithm React uses to diff one tree with another to determine which parts need to be changed.
+* The central idea of React's API is to think of updates as if they cause the entire app to re-render. 
+
+### Reconciliation versus rendering
+
+* The reason it can support so many targets is because React is designed so that reconciliation and rendering are separate phases.
+
+### What is a fiber?
+
+* We've established that a primary goal of Fiber is to enable React to take advantage of scheduling. Specifically, we need to be able to
+
+  * pause work and come back to it later.
+
+  * assign priority to different types of work.
+  * reuse previously completed work.
+  * abort work if it's no longer needed.
+
+## Props 004
+
+* tailwindcss and props app
