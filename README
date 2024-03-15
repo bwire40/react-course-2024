@@ -36,3 +36,15 @@ The algorithm React uses to diff one tree with another to determine which parts 
 ## Props 004
 
 * tailwindcss and props app
+
+### Props?
+
+* React components use props to communicate with each other. Every parent component can pass some information to its child components by giving them props. 
+
+* Props might remind you of HTML attributes, but you can pass any JavaScript value through them, including objects, arrays, and functions.
+
+* Props are the information that you pass to a JSX tag
+
+* Props let you think about parent and child components independently
+
+### project 005
