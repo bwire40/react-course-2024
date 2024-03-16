@@ -14,6 +14,7 @@ function App() {
   return (
     <div className="flex justify-center items-center flex-col py-10 bg-slate-800 w-full h-screen">
       <h1 className="py-10 text-white text-2xl">Password Generator</h1>
+      {/* password */}
       <div className="flex">
         <input
           type="text"
@@ -24,6 +25,7 @@ function App() {
         />
         <button className="bg-blue-600 p-4 text-white">Copy</button>
       </div>
+      {/* length */}
       <div className="flex gap-x-2 text-sm">
         <input
           type="range"
@@ -38,6 +40,7 @@ function App() {
           Length: {length}
         </label>
       </div>
+      {/* numbers checkbox */}
       <div className="flex gap-x-2 text-sm">
         <input
           type="checkbox"
@@ -50,6 +53,7 @@ function App() {
           Numbers
         </label>
       </div>
+      {/* character checkbox */}
       <div className="flex gap-x-2 text-sm">
         <input
           type="checkbox"
