@@ -7,6 +7,9 @@ function App() {
   const [charAllowed, setCharAllowed] = useState(false);
   const [password, setPassword] = useState("");
 
+  // generate passowrd method
+  const generatepassword = () => {};
+
   //
   return (
     <div className="flex justify-center items-center flex-col py-10 bg-slate-800 w-full h-screen">
