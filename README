@@ -13,11 +13,11 @@
 * React just mimics how the javascript DOM works.
 * React Fiber is an ongoing reimplementation of React's core algorithm. It is the culmination of over two years of research by the React team. Check our React Fiber on github.
 
-### What is reconciliation? 
+### What is reconciliation?
 
 * reconciliation
 The algorithm React uses to diff one tree with another to determine which parts need to be changed.
-* The central idea of React's API is to think of updates as if they cause the entire app to re-render. 
+* The central idea of React's API is to think of updates as if they cause the entire app to re-render.
 
 ### Reconciliation versus rendering
 
@@ -39,7 +39,7 @@ The algorithm React uses to diff one tree with another to determine which parts 
 
 ### Props?
 
-* React components use props to communicate with each other. Every parent component can pass some information to its child components by giving them props. 
+* React components use props to communicate with each other. Every parent component can pass some information to its child components by giving them props.
 
 * Props might remind you of HTML attributes, but you can pass any JavaScript value through them, including objects, arrays, and functions.
 
