@@ -6,15 +6,18 @@
 -code editor of your choice
 -react.dev- for react documentation
 
+## 00-intro
+
+-npm node package manager install libraries of js
+-npx node package executer direclty execute the packages
+
 -list of the projects in this series
 
-## intro app
+## 01-basic-react
 
-## basic-react-001
+## 02-custom-react
 
-## custom-react-002
-
-## States counter-003
+## 03-States counter
 
 ## Additional explanations
 
@@ -41,7 +44,7 @@ The algorithm React uses to diff one tree with another to determine which parts 
   * reuse previously completed work.
   * abort work if it's no longer needed.
 
-## Props 004
+## 04-Props
 
 * tailwindcss and props app
 
@@ -55,6 +58,6 @@ The algorithm React uses to diff one tree with another to determine which parts 
 
 * Props let you think about parent and child components independently
 
-### project 005
+### 05-project
 
-### password generator
+### 06-password generator
